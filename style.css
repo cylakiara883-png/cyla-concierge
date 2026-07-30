@@ -57,3 +57,33 @@ img {
     border-radius: 15px;
     margin-top: 30px;
 }
+.vehicules {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+.voiture {
+    background: #1a1a1a;
+    border: 1px solid #d4af37;
+    border-radius: 15px;
+    width: 280px;
+    padding: 25px;
+    transition: 0.3s;
+}
+
+.voiture:hover {
+    transform: translateY(-10px);
+}
+
+.voiture h3 {
+    color: #d4af37;
+    font-size: 25px;
+}
+
+.voiture p {
+    font-size: 17px;
+    line-height: 1.5;
+}
