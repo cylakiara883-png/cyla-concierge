@@ -252,3 +252,18 @@ button:hover {
 .voiture p {
     color: white;
 }
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #d4af37;
+}
