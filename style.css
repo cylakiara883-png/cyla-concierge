@@ -314,3 +314,21 @@ header p {
     max-width: 800px;
     margin: auto;
 }
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .menu {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+}
