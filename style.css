@@ -488,3 +488,22 @@ footer .btn-whatsapp {
     border: 2px solid #d4af37;
     margin-bottom: 30px;
 }
+.slider {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1.2s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
