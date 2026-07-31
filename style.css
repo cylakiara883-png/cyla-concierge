@@ -409,3 +409,38 @@ footer .btn-whatsapp {
     width: auto;
     padding: 12px 25px;
 }
+.avantages {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.avantages h2 {
+    color: #d4af37;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.avantages-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.avantage {
+    width: 300px;
+    background: #111;
+    border: 1px solid #d4af37;
+    border-radius: 10px;
+    padding: 25px;
+    transition: 0.3s;
+}
+
+.avantage:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(212,175,55,0.4);
+}
+
+.avantage h3 {
+    color: #d4af37;
+}
