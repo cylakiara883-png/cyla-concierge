@@ -373,3 +373,20 @@ form button {
 form button:hover {
     background: white;
 }
+.btn-whatsapp {
+    display: inline-block;
+    width: 100%;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+.btn-whatsapp:hover {
+    background: #1da851;
+}
