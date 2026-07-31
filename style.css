@@ -444,3 +444,28 @@ footer .btn-whatsapp {
 .avantage h3 {
     color: #d4af37;
 }
+.infos-rapides {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.infos-rapides div {
+    background: #111;
+    border: 1px solid #d4af37;
+    padding: 20px;
+    width: 180px;
+    border-radius: 10px;
+}
+
+.infos-rapides h3 {
+    color: #d4af37;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.infos-rapides p {
+    color: white;
+}
