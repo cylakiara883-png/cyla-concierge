@@ -437,7 +437,6 @@ footer .btn-whatsapp {
 }
 
 .avantage:hover {
-    transform: translateY(-10px);
     box-shadow: 0 0 20px rgba(212,175,55,0.4);
 }
 
@@ -472,13 +471,11 @@ footer .btn-whatsapp {
 /* Animation d'apparition */
 .fade-in {
     opacity: 0;
-    transform: translateY(40px);
     transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .fade-in.visible {
     opacity: 1;
-    transform: translateY(0);
 }
 .hero-image {
     width: 100%;
