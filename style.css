@@ -390,3 +390,22 @@ form button:hover {
 .btn-whatsapp:hover {
     background: #1da851;
 }
+footer {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 60px;
+    border-top: 2px solid #d4af37;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer .btn-whatsapp {
+    display: inline-block;
+    margin-top: 20px;
+    width: auto;
+    padding: 12px 25px;
+}
