@@ -236,3 +236,15 @@ nav{
     transform:translateY(-12px) scale(1.02);
     box-shadow:0 20px 45px rgba(212,175,55,.35);
 }
+/* Apparition élégante */
+
+.fade-in{
+    opacity:0;
+    transform:translateY(40px);
+    transition:all .8s ease;
+}
+
+.fade-in.visible{
+    opacity:1;
+    transform:translateY(0);
+}
