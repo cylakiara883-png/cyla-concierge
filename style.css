@@ -269,3 +269,36 @@ nav{
     transform:translateY(-10px);
     box-shadow:0 15px 40px rgba(212,175,55,.35);
 }
+/* ===== SERVICES VIP ===== */
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+    margin-top:40px;
+}
+
+.service{
+    background:#111;
+    border:1px solid #d4af37;
+    border-radius:18px;
+    padding:30px;
+    text-align:center;
+    transition:.4s;
+}
+
+.service h3{
+    color:#d4af37;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.service p{
+    color:#ddd;
+    line-height:1.7;
+}
+
+.service:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 40px rgba(212,175,55,.35);
+}
