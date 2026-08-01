@@ -248,3 +248,16 @@ nav{
     opacity:1;
     transform:translateY(0);
 }
+/* Effet luxe sur les images */
+
+.voiture{
+    overflow:hidden;
+}
+
+.voiture img{
+    transition:transform .6s ease;
+}
+
+.voiture:hover img{
+    transform:scale(1.08);
+}
