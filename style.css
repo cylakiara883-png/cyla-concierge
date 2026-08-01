@@ -302,3 +302,45 @@ nav{
     transform:translateY(-10px);
     box-shadow:0 15px 40px rgba(212,175,55,.35);
 }
+/* ===== STATISTIQUES ===== */
+
+.statistiques{
+    background:#0d0d0d;
+    padding:90px 8%;
+    text-align:center;
+}
+
+.statistiques h2{
+    color:#d4af37;
+    margin-bottom:50px;
+}
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:25px;
+}
+
+.stat{
+    background:#151515;
+    border:1px solid #d4af37;
+    border-radius:18px;
+    padding:35px 20px;
+    transition:.4s;
+}
+
+.stat:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(212,175,55,.3);
+}
+
+.stat h3{
+    color:#d4af37;
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.stat p{
+    color:#ddd;
+    font-size:18px;
+}
