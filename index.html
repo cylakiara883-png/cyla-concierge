@@ -1,81 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <title>Cyla Concierge</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyla Concierge</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<section id="reservation">
-    <h2>Réserver votre véhicule</h2>
-
-    <form>
-        <input type="text" placeholder="Nom complet" required>
-
-        <input type="email" placeholder="Adresse e-mail" required>
-
-        <input type="tel" placeholder="Téléphone" required>
-
-        <select required>
-            <option>Choisir un véhicule</option>
-            <option>Range Rover SV</option>
-            <option>Mercedes Classe S</option>
-            <option>Rolls-Royce</option>
-        </select>
-
-        <input type="date" required>
-
-        <a href="https://wa.me/243810061720?text=Bonjour%20Cyla%20Concierge,%20je%20souhaite%20réserver%20un%20véhicule." target="_blank" class="btn-whatsapp">
-    Réserver sur WhatsApp
-</a>
-    </form>
-</section>
-<footer>
-    <p>&copy; 2026 Cyla Concierge - Tous droits réservés.</p>
-
-    <p>📍 Kinshasa, RDC | 📞 +243 810 061 720</p>
-
-    <a href="https://wa.me/243810061720" class="btn-whatsapp">
-        Réserver sur WhatsApp
-    </a>
-</footer>
-<script src="script.js"></script>
 <body>
-    <nav>
-    <div class="logo">
-        Cyla Concierge
-    </div>
+
+<nav>
+    <div class="logo">CYLA CONCIERGE</div>
 
     <div class="menu">
-        <a href="#">Accueil</a>
-        <a href="#">Véhicules</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
+        <a href="#hero">Accueil</a>
+        <a href="#vehicules">Véhicules</a>
+        <a href="#services">Services</a>
+        <a href="#reservation">Réservation</a>
     </div>
 </nav>
-    <header class="hero">
+
+<header class="hero" id="hero">
 
     <div class="slider">
 
-    <img src="images/hero-mercedes.png" class="slide active" alt="Mercedes">
+        <img src="images/hero-mercedes.png" class="slide active" alt="Mercedes">
 
-    <img src="images/range-rover.jpeg" class="slide" alt="Range Rover">
+        <img src="images/range-rover.jpeg" class="slide" alt="Range Rover">
 
-    <img src="images/rolls-royce.jpeg" class="slide" alt="Rolls Royce">
+        <img src="images/rolls-royce.jpeg" class="slide" alt="Rolls Royce">
 
-</div>
+    </div>
 
     <div class="hero-content">
+
         <h1>CYLA CONCIERGE</h1>
 
         <h2>L'excellence au service de votre mobilité</h2>
 
         <p>
-            Location de véhicules de prestige avec un service VIP
-            disponible 24h/24.
+            Location de véhicules de prestige avec chauffeur privé.
         </p>
 
-        <a href="https://wa.me/243810061720?text=Bonjour%20Cyla%20Concierge,%20je%20souhaite%20réserver%20un%20véhicule." class="btn-whatsapp">
+        <a href="https://wa.me/243810061720" class="btn-whatsapp">
             Réserver maintenant
         </a>
 
@@ -83,97 +51,47 @@
 
 </header>
 
-<section>
-    <h2>Nos véhicules de prestige</h2>
-    <p>
-        Découvrez notre sélection de voitures de luxe
-        pour vos déplacements privés, événements et voyages VIP.
-    </p>
+<section id="vehicules">
+
+    <h2>Notre flotte</h2>
+
+    <div class="vehicules">
+
+        <div class="voiture">
+
+            <img src="images/range-rover.jpeg">
+
+            <h3>Range Rover SV</h3>
+
+            <p>Le luxe absolu.</p>
+
+        </div>
+
+        <div class="voiture">
+
+            <img src="images/hero-mercedes.png">
+
+            <h3>Mercedes Classe S</h3>
+
+            <p>Confort et élégance.</p>
+
+        </div>
+
+        <div class="voiture">
+
+            <img src="images/rolls-royce.jpeg">
+
+            <h3>Rolls-Royce</h3>
+
+            <p>Le prestige ultime.</p>
+
+        </div>
+
+    </div>
+
 </section>
-<div class="vehicules">
 
-    <div class="voiture">
-        <img src="images/hero-mercedes.jpeg" alt="Mercedes Classe S avec chauffeur">
-        <h3>Range Rover SV</h3>
-        <p>Luxe, confort et élégance pour vos déplacements VIP.</p>
-    </div>
+<script src="script.js"></script>
 
-    <div class="voiture">
-        <img src="images/mercedes.jpeg" alt="Mercedes Classe S">
-        <h3>Mercedes Classe S</h3>
-        <p>Une expérience de voyage exceptionnelle avec chauffeur.</p>
-    </div>
-
-    <div class="voiture">
-        <img src="images/rolls-royce.jpeg" alt="Rolls Royce">
-        <h3>Rolls-Royce</h3>
-        <p>Le symbole ultime du prestige et du raffinement.</p>
-    </div>
-
-</div>
-<section>
-    <h2>Nos services</h2>
-    <p>
-        Location de voitures de luxe, service avec chauffeur
-        et accompagnement personnalisé.
-    </p>
-
-    <button>Réserver maintenant</button>
-    <div class="infos-rapides">
-    <div>
-        <h3>24h/24</h3>
-        <p>Disponibilité</p>
-    </div>
-
-    <div>
-        <h3>VIP</h3>
-        <p>Service personnalisé</p>
-    </div>
-
-    <div>
-        <h3>100%</h3>
-        <p>Confort & Prestige</p>
-    </div>
-</div>
-    <button>Nous contacter</button>
-</section>
-    <h1>Cyla Concierge</h1>
-    <h2>Location de voitures de luxe</h2>
-
-    <p>
-        Bienvenue chez Cyla Concierge, votre service de location
-        de voitures de prestige.
-    </p>
-
-    <h3>Nos services</h3>
-    <ul>
-        <li>Location de voitures de luxe</li>
-        <li>Service privé avec chauffeur</li>
-        <li>Accompagnement VIP</li>
-    </ul>
-
-    <p>Contactez-nous pour réserver votre véhicule.</p>
 </body>
 </html>
-<section class="avantages">
-    <h2>Pourquoi choisir Cyla Concierge ?</h2>
-
-    <div class="avantages-grid">
-
-        <div class="avantage">
-            <h3>🚘 Véhicules d'exception</h3>
-            <p>Une flotte de voitures de luxe soigneusement sélectionnées.</p>
-        </div>
-
-        <div class="avantage">
-            <h3>👔 Service VIP</h3>
-            <p>Une expérience personnalisée avec un accompagnement haut de gamme.</p>
-        </div>
-
-        <div class="avantage">
-            <h3>⏰ Disponible 24h/24</h3>
-            <p>Nous sommes à votre écoute pour répondre à vos besoins à tout moment.</p>
-        </div>
-
-    </div>
-</section>
