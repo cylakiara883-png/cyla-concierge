@@ -208,3 +208,31 @@ nav{
 }
 
 }
+/* Bouton des véhicules */
+
+.btn-reserver{
+    display:block;
+    margin:20px;
+    padding:14px;
+    text-align:center;
+    text-decoration:none;
+    background:#d4af37;
+    color:#000;
+    border-radius:10px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn-reserver:hover{
+    background:white;
+    transform:scale(1.03);
+}
+
+.voiture{
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+}
+
+.voiture:hover{
+    transform:translateY(-12px) scale(1.02);
+    box-shadow:0 20px 45px rgba(212,175,55,.35);
+}
