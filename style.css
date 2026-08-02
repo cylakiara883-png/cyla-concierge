@@ -485,3 +485,50 @@ nav{
 .voiture:hover::before{
     left:160%;
 }
+/* ===== AVIS CLIENTS ===== */
+
+.avis{
+    padding:90px 8%;
+    text-align:center;
+}
+
+.avis h2{
+    color:#d4af37;
+    margin-bottom:50px;
+}
+
+.avis-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.avis-card{
+    background:#111;
+    border:1px solid #d4af37;
+    border-radius:18px;
+    padding:30px;
+    transition:.4s;
+}
+
+.avis-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 40px rgba(212,175,55,.35);
+}
+
+.etoiles{
+    color:#d4af37;
+    font-size:26px;
+    margin-bottom:20px;
+}
+
+.avis-card p{
+    color:#ddd;
+    line-height:1.8;
+    font-style:italic;
+}
+
+.avis-card h3{
+    color:#fff;
+    margin-top:20px;
+}
