@@ -104,18 +104,24 @@ nav{
 }
 
 .hero-content h1{
-    font-size:70px;
+    font-size:72px;
     color:#d4af37;
+    text-transform:uppercase;
+    letter-spacing:5px;
+    text-shadow:0 4px 20px rgba(0,0,0,.6);
 }
 
 .hero-content h2{
+    font-size:34px;
     margin:20px 0;
-    font-size:32px;
+    color:white;
 }
 
 .hero-content p{
+    font-size:22px;
+    color:#f2f2f2;
     max-width:700px;
-    font-size:20px;
+    line-height:1.7;
 }
 
 /* BOUTON */
