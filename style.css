@@ -621,3 +621,12 @@ nav{
 .menu a:hover::after{
     width:100%;
 }
+.logo{
+    transition:.3s;
+    cursor:pointer;
+}
+
+.logo:hover{
+    color:#f8d568;
+    letter-spacing:3px;
+}
