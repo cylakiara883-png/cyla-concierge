@@ -25,26 +25,26 @@
 
     <form class="reservation-form">
 
-        <input type="text" placeholder="Nom complet" required>
+        <input type="text" id="nom" placeholder="Nom complet" required>
 
-        <input type="email" placeholder="Adresse e-mail" required>
+        <input type="email" id="email" placeholder="Adresse e-mail" required>
 
-        <input type="tel" placeholder="Téléphone" required>
+        <input type="tel" id="telephone" placeholder="Téléphone" required>
 
-        <select required>
+        <select id="vehicule" required>
             <option>Choisir un véhicule</option>
             <option>Range Rover SV</option>
             <option>Mercedes Classe S</option>
             <option>Rolls-Royce</option>
         </select>
 
-        <input type="date" required>
+        <input type="date" id="debut" required>
 
-        <input type="date" required>
+        <input type="date" id="fin" required>
 
-        <textarea placeholder="Demandes particulières..." rows="5"></textarea>
+        <textarea id="message" placeholder="Demandes particulières..." rows="5"></textarea>
 
-        <button type="submit">
+        <button type="button" onclick="envoyerWhatsApp()">
             Envoyer la demande
         </button>
 
