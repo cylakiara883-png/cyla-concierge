@@ -454,6 +454,7 @@ nav{
 
 .voiture{
     position:relative;
+    overflow:hidden;
 }
 
 .prix{
