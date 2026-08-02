@@ -437,3 +437,28 @@ nav{
 .voiture a:first-child:hover h3{
     color:#f0c95d;
 }
+/* ===== BADGE ===== */
+
+.badge{
+    position:absolute;
+    top:15px;
+    left:15px;
+    background:#d4af37;
+    color:#000;
+    padding:8px 14px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:bold;
+    z-index:5;
+}
+
+.voiture{
+    position:relative;
+}
+
+.prix{
+    color:#d4af37;
+    font-size:22px;
+    font-weight:bold;
+    margin:15px 20px;
+}
