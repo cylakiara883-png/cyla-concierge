@@ -373,3 +373,56 @@ nav{
     color:#888;
     font-size:14px;
 }
+/* ===== PAGE DÉTAIL VÉHICULE ===== */
+
+.detail-voiture{
+    max-width:1200px;
+    margin:120px auto 80px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+    padding:0 30px;
+}
+
+.detail-image{
+    width:100%;
+    border-radius:20px;
+    border:2px solid #d4af37;
+}
+
+.detail-info h1{
+    color:#d4af37;
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.detail-info h2{
+    margin:20px 0;
+}
+
+.detail-info p{
+    line-height:1.8;
+    color:#ddd;
+}
+
+.detail-info ul{
+    margin:25px 0;
+    padding-left:20px;
+}
+
+.detail-info li{
+    margin-bottom:12px;
+}
+
+@media(max-width:768px){
+
+.detail-voiture{
+    grid-template-columns:1fr;
+}
+
+.detail-info h1{
+    font-size:36px;
+}
+
+}
