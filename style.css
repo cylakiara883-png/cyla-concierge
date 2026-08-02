@@ -426,3 +426,14 @@ nav{
 }
 
 }
+/* Carte cliquable */
+
+.voiture a:first-child{
+    text-decoration:none;
+    color:inherit;
+    display:block;
+}
+
+.voiture a:first-child:hover h3{
+    color:#f0c95d;
+}
