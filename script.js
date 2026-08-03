@@ -120,3 +120,18 @@ function revealOnScroll(){
 window.addEventListener("scroll", revealOnScroll);
 
 revealOnScroll();
+
+/* Loader */
+
+window.addEventListener("load", () => {
+
+    setTimeout(() => {
+
+        document
+        .getElementById("loader")
+        .classList
+        .add("loader-hide");
+
+    }, 2000);
+
+});
