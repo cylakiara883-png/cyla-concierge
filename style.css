@@ -966,3 +966,31 @@ nav{
     opacity:0;
     pointer-events:none;
 }
+
+/* ===== EFFET PREMIUM SUR LES VÉHICULES ===== */
+
+.voiture{
+    overflow:hidden;
+    transition:transform .4s ease, box-shadow .4s ease;
+}
+
+.voiture img{
+    transition:transform .6s ease;
+}
+
+.voiture:hover{
+    transform:translateY(-12px);
+    box-shadow:0 20px 40px rgba(212,175,55,.25);
+}
+
+.voiture:hover img{
+    transform:scale(1.08);
+}
+
+.voiture h3{
+    transition:color .3s ease;
+}
+
+.voiture:hover h3{
+    color:#f7d774;
+}
