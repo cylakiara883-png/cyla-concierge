@@ -749,3 +749,32 @@ nav{
     transform:scale(1.12);
     background:#1ebc59;
 }
+
+/* ===== GALERIE ===== */
+
+.galerie{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.miniatures{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.miniatures img{
+    width:110px;
+    height:80px;
+    object-fit:cover;
+    border-radius:10px;
+    border:2px solid #d4af37;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.miniatures img:hover{
+    transform:scale(1.08);
+}
