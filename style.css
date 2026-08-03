@@ -842,3 +842,57 @@ nav{
     align-items:center;
     text-decoration:none;
 }
+/* ===== PAGE DÉTAIL VÉHICULE ===== */
+
+.detail-voiture{
+    display:flex;
+    gap:50px;
+    align-items:flex-start;
+    justify-content:center;
+    flex-wrap:wrap;
+    padding:80px 8%;
+}
+
+.detail-image{
+    width:100%;
+    max-width:650px;
+    border-radius:18px;
+    border:2px solid #d4af37;
+    box-shadow:0 10px 35px rgba(0,0,0,.4);
+}
+
+.detail-info{
+    max-width:500px;
+}
+
+.detail-info h1{
+    color:#d4af37;
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.detail-info h2{
+    color:#fff;
+    margin-bottom:25px;
+}
+
+.detail-info p,
+.detail-info li{
+    color:#ddd;
+    line-height:1.8;
+}
+
+.detail-info ul{
+    list-style:none;
+    padding:0;
+}
+
+.avantages-voiture{
+    padding:80px 8%;
+}
+
+.avantages-voiture h2{
+    text-align:center;
+    color:#d4af37;
+    margin-bottom:40px;
+}
