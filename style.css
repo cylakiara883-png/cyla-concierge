@@ -896,3 +896,8 @@ nav{
     color:#d4af37;
     margin-bottom:40px;
 }
+
+.car-link{
+    text-decoration:none;
+    color:inherit;
+}
