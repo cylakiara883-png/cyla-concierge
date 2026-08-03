@@ -800,3 +800,33 @@ nav{
     line-height:1.9;
     margin-bottom:25px;
 }
+
+/* ===== FAQ ===== */
+
+.faq{
+    padding:90px 8%;
+}
+
+.faq h2{
+    text-align:center;
+    color:#d4af37;
+    margin-bottom:50px;
+}
+
+.faq-item{
+    background:#111;
+    border:1px solid #d4af37;
+    border-radius:12px;
+    padding:25px;
+    margin-bottom:20px;
+}
+
+.faq-item h3{
+    color:#d4af37;
+    margin-bottom:15px;
+}
+
+.faq-item p{
+    color:#ddd;
+    line-height:1.8;
+}
